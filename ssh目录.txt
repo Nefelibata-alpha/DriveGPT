@@ -1,0 +1,4 @@
+    output_dir = r"D:\DriveGPT\DriveGPT\output"
+    model_name = r"D:\DriveGPT\DriveGPT\model\Qwen3-VL-2B-Instruct"
+    image_root = r"D:\DriveGPT\DriveGPT\image"
+    json_path = r"D:\DriveGPT\DriveGPT\data\BDD_X_training_label_zh.json"
