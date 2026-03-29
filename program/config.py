@@ -19,8 +19,8 @@ class DriveConfig:
 
     # ========== 训练参数 ==========
     num_epochs: int = 1           # 可选: 1, 2, 3, 5 (训练轮数)
-    batch_size: int = 1           # 可选: 1, 2, 4, 8 (每批次样本数，根据显存调整)
-    gradient_accumulation_steps: int = 8  # 可选: 1, 2, 4, 8 (梯度累积步数，模拟大batch)
+    batch_size: int = 2           # 可选: 1, 2, 4, 8 (每批次样本数，根据显存调整)
+    gradient_accumulation_steps: int = 4  # 可选: 1, 2, 4, 8 (梯度累积步数，模拟大batch)
     learning_rate: float = 5e-5   # 可选: 1e-5, 2e-5, 5e-5, 1e-4 (学习率)
     warmup_ratio: float = 0.1     # 可选: 0.03, 0.05, 0.1, 0.2 (预热比例)
     max_length: int = 1024        # 可选: 512, 1024, 2048 (最大序列长度)

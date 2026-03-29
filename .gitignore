@@ -44,7 +44,6 @@ model/
 # Data files (too large)
 data/
 image/
-*.json
 *.png
 *.jpg
 *.jpeg
